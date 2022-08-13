@@ -1,0 +1,64 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family: sans-serif;
+    background-image: url(Photos//Recipe_background.jpg);
+    background-color: rgba(0,0,0,0.6);
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+	position: relative;
+    background-blend-mode: darken;
+}
+.cards
+{
+    width: 20%;
+    border-radius: 5px;
+    margin: 87px;
+    background-color: white;
+    box-shadow: 4px 4px 10px black;
+    display: inline-block;
+
+}
+.cards:hover
+{
+    box-shadow: 4px 4px 10px grey;
+}
+.image img
+{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.title
+{
+    text-align: center;
+    padding: 5px;
+    color: red;
+}
+.des
+{
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    padding: 4px;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}

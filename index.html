@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Week</title>
+    <link rel="icon" href="Photos//R.png">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/56b2276271.css">
+</head>
+<body>
+    <div class="hero">
+    <div class="nav-bar">
+        <div class="nav-logo">
+            <img src="Photos//R.png">
+        </div>
+        <div class="nav-links" id="nav-links">
+          <i class="fa fa-close"oneclick="closeMenu()"></i>  
+            <ul>
+                <a href="#"><li>HOME</li></a>
+                <a href="Index3.html"><li>RECIPE</li></a>
+                <a href="About.html"><li>ABOUT US</li></a>
+                <a href="Index2.html"><li>CONTACT US</li></a>
+            </ul>
+            <a href="Signup.html"><button type="button" class="btn">SIGN UP</button></a>
+        </div>
+        <i class="fa fa-bars" oneclick="showMenu()"></i>
+        </div>
+        <div class="banner-title">
+            <h1>Food doesn't<span> have<br> a religion. </span>It is a religion.</h1>
+            <a href="https://www.bing.com/search?q=food&form=ANNTH1&refig=aa865caf4e50465282bca949fb289dcb"><button type="button" class="btn">EXPLORE</button></a>
+        </div>
+        <div class="vertical-bar">
+            <div class="search-icon">
+                <a href="Menu.html"><i class="fa fa-th-list"></i></a>
+                <a href="https://www.google.com"><i class="fa fa-search"></i></a>
+            </div>    
+            <div class="social-icons">
+               <a href="https://www.facebook.com/sarcasticboizz"><i class="fa fa-facebook"></i></a>
+               <a href="https://www.instagram.com/sarcastic_boizz"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.twitter.com/boizzsarcastic"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.pinterest.com"><i class="fa fa-pinterest"></i> </a>  
+            </div>
+        </div>
+        <div class="notifications">
+            <div class="contents">
+                <small>Subscribe Restaurant Weeks and never miss any videos.</small>
+                <p><a href="">PREV</a><a href="">NEXT</a></p>
+            </div>
+            <div class="notifications-img">
+                <img src="Photos//logo.jpg">
+            </div>
+        </div>
+    </div>
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+            show.style.right = "0";
+        }
+
+        function closeMenu(){
+            show.style.right = "-200";
+        }
+    </script>
+</body>
+</html>
